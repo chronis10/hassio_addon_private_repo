@@ -1,0 +1,15 @@
+{
+  "name": "HASSIO Download Private Addons",
+  "version": "0.0.1",
+  "slug": "repodownloader",
+  "description": "HASSIO Download Private Addons",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "application",
+  "boot": "manual",
+  "options": {"repository": "",
+				"username": "",
+				"password": ""},
+  "schema": {"repository": "str",
+  				"username": "str",
+				"password": "str"}
+}
